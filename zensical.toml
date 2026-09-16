@@ -1,8 +1,8 @@
 [project]
 site_name = "Site de suivi &ndash; Projet IFT3150"
 site_description = "Template de site web pour le cours IFT3150"
-site_author = "Louis-Edouard Lafontant"
-site_url = "https://ift3150-template.github.io"
+site_author = "Trung Nguyen"
+site_url = "https://likeskymore.github.io/site-suivi/"
 
 copyright = """
 &copy; 2026 <b>DIRO</b> &ndash; Template de site pour le cours IFT3150 <br>
@@ -10,8 +10,8 @@ Département d'informatique et de recherche opérationnelle <br>
 Université de Montréal
 """
 
-repo_name = "ift3150-template"
-repo_url = "https://github.com/likeskymore/likeskymore.github.io"
+repo_name = "site-suivi"
+repo_url = "https://github.com/likeskymore/site-suivi"
 
 # edit_uri = "edit/main/docs/"
 
