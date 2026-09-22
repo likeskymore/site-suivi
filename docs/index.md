@@ -76,8 +76,11 @@ La validation vise ainsi à vérifier que les fonctionnalités intégrées dans 
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 
-| Activités                      | Début   |   Fin   | Livrable                            | Statut      |
-|--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 4 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
-| Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |
+| Activités | Début | Fin | Livrable | Statut |
+| --- | --- | --- | --- | --- |
+| Exploration du codebase et intégration initiale des fonctionnalités de ChainForge dans PromptStudio | 01 sept. | 28 sept. | Évaluateurs, processeurs et calcul des tokens intégrés | 🔄 En cours |
+<!-- | Architecture des évaluateurs LLM et Multi-Evaluator | 01 oct. | 14 oct. | Architecture récursive et persistance spécialisées | ✅ Terminé |
+| Intégration des processeurs et validation backend | 15 oct. | 28 oct. | Flux Dataset/Split/Join et tests ChainForge validés | ✅ Terminé |
+| Support des variables et développement initial du frontend | 01 nov. | 14 nov. | Support des metavars et base du tableau de bord | ⏳ À venir |
+| Suivi en temps réel et page de monitoring | 15 nov. | 28 nov. | Flux SSE, ExperimentRunState et visualisations | ✅ Terminé |
+| Métriques de performance et de latence | 01 déc. | 14 déc. | Modèles utilisés, tokens et latences P50/P95/P99 | ✅ Terminé | -->
