@@ -118,7 +118,7 @@ title: Suivi du projet
 !!! warning "Difficultés"
     - Les nouvelles expériences initialisaient `final_dataset_id` à `null`, ce qui empêchait prématurément le calcul.
 
-## Semaine 1 — (28 Septembre-4 Octobre)
+## Semaine 5 — (28 Septembre-4 Octobre)
 
 ### Objectifs de la période
 - Ajouter les évaluateurs LLM et Multi-Evaluator.
@@ -145,7 +145,7 @@ title: Suivi du projet
     - L’approche initiale pour le Multi-Evaluator contournait sa structure réelle.
     - Après discussion avec le professeur Syriani, cette solution a été jugée inefficace et a dû être repensée.
 
-## Semaine 2 — (5-11 Octobre)
+## Semaine 6 — (5-11 Octobre)
 
 ### Objectifs de la période
 - Refactoriser la conversion `jsonToYml`.
@@ -176,7 +176,7 @@ title: Suivi du projet
     - Les configurations d’évaluateurs enfants ne possédaient pas toujours la même structure que les évaluateurs autonomes.
     - La persistance devait retourner l’identifiant du nœud parent pour construire correctement les correspondances.
 
-<!-- ## Semaine 3 — (12-18 Octobre)
+## Semaine 7 — (12-18 Octobre)
 
 ### Objectifs de la période
 - Résoudre les entrées avant leur envoi aux processeurs Split et Join.
@@ -206,7 +206,7 @@ title: Suivi du projet
     - Une structure dédiée pour mapper toutes les entrées, leurs marqueurs et les résultats a été envisagée, mais reportée en raison de sa complexité.
     - Les autres types de nœuds en amont d’un Join ne sont pas encore pris en charge.
 
-## Semaine 4 — (19-25 Octobre)
+<!-- ## Semaine 8 — (19-25 Octobre)
 
 ### Objectifs de la période
 - Tester les fonctionnalités issues de ChainForge.
@@ -230,9 +230,9 @@ title: Suivi du projet
 
 !!! warning "Difficultés"
     - Le Simple Evaluator supposait que la valeur de comparaison était toujours fournie directement par l’utilisateur.
-    - Les metavars étaient présentes dans le pipeline, mais ne permettaient pas encore de distinguer correctement les valeurs à utiliser.
+    - Les metavars étaient présentes dans le pipeline, mais ne permettaient pas encore de distinguer correctement les valeurs à utiliser. -->
 
-## Semaine 1 — (26 Octobre-1 Novembre)
+<!-- ## Semaine 9 — (26 Octobre-1 Novembre)
 
 ### Objectifs de la période
 - Corriger la gestion des variables et metavars du Simple Evaluator.
@@ -256,9 +256,9 @@ title: Suivi du projet
 
 !!! warning "Difficultés"
     - Les données nécessaires étaient déjà transmises dans `markerDict`, mais leur distinction n’était pas conservée lors de la conversion.
-    - La formulation du code du Simple Evaluator restait incorrecte dans certains cas et devait être reprise la semaine suivante.
+    - La formulation du code du Simple Evaluator restait incorrecte dans certains cas et devait être reprise la semaine suivante. -->
 
-## Semaine 2 — (2-8 Novembre)
+<!-- ## Semaine 10 — (2-8 Novembre)
 
 ### Objectifs de la période
 - Finaliser la formulation du code du Simple Evaluator.
@@ -284,9 +284,9 @@ title: Suivi du projet
 
 !!! warning "Difficultés"
     - La première formulation du code ne vérifiait pas si la valeur sélectionnée était une variable ou une metavariable avant de générer le JavaScript.
-    - L’architecture initiale du frontend permettait trop directement les opérations d’écriture et devait être réorientée.
+    - L’architecture initiale du frontend permettait trop directement les opérations d’écriture et devait être réorientée. -->
 
-## Semaine 3 — (9-15 Novembre)
+<!-- ## Semaine 11 — (9-15 Novembre)
 
 ### Objectifs de la période
 - Mettre en place le suivi en temps réel des expériences.
@@ -313,9 +313,9 @@ title: Suivi du projet
 ### Difficultés rencontrées
 
 !!! warning "Difficultés"
-    - L’état devait être mis à jour tout au long de l’exécution sans perdre les informations sur les requêtes réussies, échouées ou réessayées.
+    - L’état devait être mis à jour tout au long de l’exécution sans perdre les informations sur les requêtes réussies, échouées ou réessayées. -->
 
-## Semaine 4 — (16-22 Novembre)
+<!-- ## Semaine 12 — (16-22 Novembre)
 
 ### Objectifs de la période
 - Construire le contenu principal de la page de monitoring.
@@ -341,9 +341,9 @@ title: Suivi du projet
 ### Difficultés rencontrées
 
 !!! warning "Difficultés"
-    - Les mises à jour fréquentes de l’état pouvaient produire un trafic réseau et un traitement excessifs côté frontend.
+    - Les mises à jour fréquentes de l’état pouvaient produire un trafic réseau et un traitement excessifs côté frontend. -->
 
-## Semaine 1 — (23-29 Novembre)
+<!-- ## Semaine 13 — (23-29 Novembre)
 
 ### Objectifs de la période
 - Compléter les indicateurs de performance du monitoring.
@@ -366,9 +366,9 @@ title: Suivi du projet
 ### Difficultés rencontrées
 
 !!! warning "Difficultés"
-    - Les indicateurs doivent rester cohérents pendant qu’une expérience est encore en cours et que ses valeurs évoluent.
+    - Les indicateurs doivent rester cohérents pendant qu’une expérience est encore en cours et que ses valeurs évoluent. -->
 
-## Semaine 2 — (30 Novembre-6 Décembre)
+<!-- ## Semaine 14 — (30 Novembre-6 Décembre)
 
 ### Objectifs de la période
 - Enrichir le monitoring avec les modèles utilisés.
@@ -391,9 +391,9 @@ title: Suivi du projet
 ### Difficultés rencontrées
 
 !!! warning "Difficultés"
-    - Les données de latence doivent être collectées et agrégées sans perturber le suivi de progression en temps réel.
+    - Les données de latence doivent être collectées et agrégées sans perturber le suivi de progression en temps réel. -->
 
-## Semaine 3 — (7-13 Décembre)
+<!-- ## Semaine 15 — (7-13 Décembre)
 
 ### Objectifs de la période
 - Poursuivre la validation du tableau de bord.
@@ -412,9 +412,9 @@ title: Suivi du projet
 ### Difficultés rencontrées
 
 !!! warning "Difficultés"
-    - Aucun obstacle supplémentaire n’est documenté pour cette période.
+    - Aucun obstacle supplémentaire n’est documenté pour cette période. -->
 
-## Semaine 4 — (14-20 Décembre)
+<!-- ## Semaine 16 — (14-20 Décembre)
 
 ### Objectifs de la période
 - Finaliser le suivi de la session et préparer le bilan du projet.
