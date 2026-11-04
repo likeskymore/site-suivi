@@ -206,7 +206,7 @@ title: Suivi du projet
     - Une structure dédiée pour mapper toutes les entrées, leurs marqueurs et les résultats a été envisagée, mais reportée en raison de sa complexité.
     - Les autres types de nœuds en amont d’un Join ne sont pas encore pris en charge.
 
-<!-- ## Semaine 8 — (19-25 Octobre)
+## Semaine 8 — (19-25 Octobre)
 
 ### Objectifs de la période
 - Tester les fonctionnalités issues de ChainForge.
@@ -230,9 +230,9 @@ title: Suivi du projet
 
 !!! warning "Difficultés"
     - Le Simple Evaluator supposait que la valeur de comparaison était toujours fournie directement par l’utilisateur.
-    - Les metavars étaient présentes dans le pipeline, mais ne permettaient pas encore de distinguer correctement les valeurs à utiliser. -->
+    - Les metavars étaient présentes dans le pipeline, mais ne permettaient pas encore de distinguer correctement les valeurs à utiliser.
 
-<!-- ## Semaine 9 — (26 Octobre-1 Novembre)
+## Semaine 9 — (26 Octobre-1 Novembre)
 
 ### Objectifs de la période
 - Corriger la gestion des variables et metavars du Simple Evaluator.
@@ -256,7 +256,7 @@ title: Suivi du projet
 
 !!! warning "Difficultés"
     - Les données nécessaires étaient déjà transmises dans `markerDict`, mais leur distinction n’était pas conservée lors de la conversion.
-    - La formulation du code du Simple Evaluator restait incorrecte dans certains cas et devait être reprise la semaine suivante. -->
+    - La formulation du code du Simple Evaluator restait incorrecte dans certains cas et devait être reprise la semaine suivante.
 
 <!-- ## Semaine 10 — (2-8 Novembre)
 
